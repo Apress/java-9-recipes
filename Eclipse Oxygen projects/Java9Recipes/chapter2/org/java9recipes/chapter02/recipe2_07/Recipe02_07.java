@@ -1,7 +1,7 @@
 
 
 package org.java9recipes.chapter02.recipe2_07;
-
+// The org.apache.logging.log4j package is not a part of JDK 9
 import java.time.LocalDate;
 import java.time.LocalTime;
 //import org.apache.logging.log4j.LogManager;

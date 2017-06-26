@@ -1,4 +1,5 @@
 package org.java9recipes.chapter02.recipe2_06;
+//The the JDK 9 (175) does not contains java.net package
 
 import java.io.IOException;
 import java.net.URI;

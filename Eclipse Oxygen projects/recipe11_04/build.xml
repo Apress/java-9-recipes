@@ -1,0 +1,69 @@
+<project default="test" name="Chapter11Project" basedir=".">
+
+	<property name="src" location="src" />
+	<property name="build" location="build/" />
+	<property name="reports.tests" location="report/" />
+	<property name="classpath" location="dep/" />
+
+	<!-- Findbugs Static Analyzer Info -->
+	<property name="findbugs.dir" value="dep/findbugs" />
+	<property name="findbugs.report" value="findbugs" />
+
+	<path id="findbugs.lib">
+		<fileset dir="${findbugs.dir}" includes="*.jar" />
+	</path>
+	<taskdef name="findbugs" classpathref="findbugs.lib" classname="edu.umd.cs.findbugs.anttask.FindBugsTask" />
+
+
+	<path id="build.path">
+		<fileset dir="dep">
+			<include name="**/*.jar" />
+		</fileset>
+	</path>
+
+	<target name="clean">
+		<delete dir="${build}" />
+		<delete dir="${reports.tests}" />
+		<delete dir="${coverage.dir}" />
+		<delete dir="${instrumented}" />
+		<mkdir dir="${build}" />
+		<mkdir dir="${reports.tests}" />
+		<mkdir dir="${coverage.dir}" />
+
+	</target>
+
+	<target name="build">
+		<javac includeantruntime="false" srcdir="${src}" destdir="${build}" debug="${debug}">
+			<classpath refid="build.path" />
+		</javac>
+	</target>
+
+	<target name="test" depends="clean,build">
+		<junit fork="yes" printsummary="yes" haltonfailure="yes">
+			<classpath refid="build.path" />
+			<formatter type="plain" />
+
+			<batchtest fork="yes" todir="${reports.tests}">
+				<fileset dir="${build}">
+					<include name="**/*Test*.class" />
+				</fileset>
+			</batchtest>
+			<jvmarg value="-XX:-UseSplitVerifier" />
+		</junit>
+
+	</target>
+
+	<target name="findbugs" depends="clean">
+		<antcall target="build">
+			<param name="debug" value="true" />
+		</antcall>
+
+		<mkdir dir="${findbugs.report}" />
+		<findbugs home="${findbugs.dir}" output="html" outputFile="${findbugs.report}/index.html" reportLevel="low" >
+			<class location="${build}/" />
+			<auxClasspath  refid="findbugs.dir" />
+			<sourcePath path="${src}" />
+
+		</findbugs>
+	</target>
+</project>

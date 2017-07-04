@@ -1,0 +1,27 @@
+
+
+.mainmessage {
+    -fx-font-family: "Helvetica";
+    -fx-font-size: 30px;
+}
+
+.span1 {
+    -fx-color: "red";
+}
+
+.span2 {
+    -fx-font-family: "Serif";
+    -fx-font-size: 30px;
+    -fx-color: "red";
+}
+
+.span3 {
+    -fx-font-family: "Serif";
+    -fx-font-size: 30px;
+    -fx-fill: "orange";
+    -fx-font-style: italic;
+}
+
+.cool {
+    -fx-effect: dropshadow(gaussian, gray, 8, 0.5, 8, 8);
+}

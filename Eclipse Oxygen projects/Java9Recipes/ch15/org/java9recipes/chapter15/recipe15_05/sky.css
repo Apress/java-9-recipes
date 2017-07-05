@@ -1,0 +1,42 @@
+/**
+ * Name: JavaFX Sky look n feel
+ * Publisher: Apress
+ * Author: Carl Dea
+ * 
+ */
+.root{
+    -fx-font-size: 14pt;
+    -fx-font-family: "LucidaBrightDemiBold";
+    -fx-background: rgba(17, 145, 213);
+    -fx-base: rgb(255, 255, 255);
+}
+.toggle-button{
+    -fx-text-fill: rgba(17, 145, 213);
+    -fx-border-color: rgba(255, 255, 255, .80);
+    -fx-border-radius: 8;
+    -fx-padding: 6 6 6 6;
+    -fx-font: bold italic 20pt "LucidaBrightDemiBold";
+}
+.label {
+    -fx-text-fill: rgba(17, 145, 213);
+    -fx-border-color: rgba(255, 255, 255, .80);
+    -fx-border-radius: 8;
+    -fx-padding: 6 6 6 6;
+    -fx-font: bold italic 20pt "LucidaBrightDemiBold";
+    
+}
+.button{
+    -fx-text-fill: rgba(17, 145, 213);
+    -fx-border-color: rgba(255, 255, 255, .80);
+    -fx-border-radius: 8;
+    -fx-padding: 6 6 6 6;
+    -fx-font: bold italic 20pt "LucidaBrightDemiBold";
+    
+}
+
+.borders{
+    -fx-border-color: rgba(17, 145, 213);
+    -fx-border-style: dotted;
+    -fx-border-width: 1;
+    -fx-border-insets: -2;
+}

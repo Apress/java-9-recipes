@@ -49,10 +49,10 @@ public class Recipe19_3 {
             messageBodyPart.setContent("This is a test message", "text/plain");
 
             MimeBodyPart fileBodyPart = new MimeBodyPart();
-            fileBodyPart.attachFile("<path-to-attachment>/attach.txt");
+            fileBodyPart.attachFile("recipe19_03/attach.txt");
             
             MimeBodyPart fileBodyPart2 = new MimeBodyPart();
-            fileBodyPart2.attachFile("<path-to-attachment>/attach2.txt");
+            fileBodyPart2.attachFile("recipe19_03/attach2.txt");
 
             Multipart multipart = new MimeMultipart();
             multipart.addBodyPart(messageBodyPart);

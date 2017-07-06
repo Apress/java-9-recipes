@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+
+<Scene width="200" height="75" fill="white" xmlns:fx="http://javafx.com/fxml">
+    <stylesheets>
+        <URL value="@textfonts.css"/>
+    </stylesheets>
+    <Pane fx:id="pane">
+
+         <TextFlow styleClass="mainmessage">
+            <Text styleClass="span1">Hello </Text>
+            <Text text=" "/>
+            <Text styleClass="span2, large">Java</Text>
+            <Text styleClass="span3, slant">FX</Text>
+            <Text text=" "/>
+            <Text styleClass="cool">8</Text>
+            
+        </TextFlow>
+    </Pane>
+</Scene>

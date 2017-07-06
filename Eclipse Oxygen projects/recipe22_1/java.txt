@@ -1,0 +1,2 @@
+java -p mods -m org.firstmodule/org.firstmodule.Main
+java --module-path mods -m org.firstmodule/org.firstmodule.Main

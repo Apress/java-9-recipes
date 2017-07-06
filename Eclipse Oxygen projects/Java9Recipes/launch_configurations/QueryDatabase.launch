@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/recipe12_3/src/org/java9recipes/chapter11/recipe11_03/src/QueryDatabase.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.java9recipes.chapter11.recipe11_03.src.QueryDatabase"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="recipe12_3"/>
+</launchConfiguration>

@@ -1,0 +1,2 @@
+jar --create --file=org.secondModule.jar --module-version=1.0  -C mods/org.secondModules
+jar --create --file org.secondModule.jar @classes.list

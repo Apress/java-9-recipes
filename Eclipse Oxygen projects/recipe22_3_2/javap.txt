@@ -1,0 +1,1 @@
+javap -c mods/org.secondModule/module-info.class

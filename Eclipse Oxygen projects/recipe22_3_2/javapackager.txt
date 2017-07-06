@@ -1,0 +1,1 @@
+javapackager -createjar -srcdir mods -outdir lib -outfile org.secondModule.jar -appclass

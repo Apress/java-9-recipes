@@ -1,1 +1,0 @@
-javac -d src\mods\org.acme.wordcount src\module-info.java src\org.acme.wordcount\org\acme\wordcount\WordCount.java

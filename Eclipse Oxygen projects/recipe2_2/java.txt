@@ -1,4 +1,0 @@
-java --module-path mods -m org.acme.wordcount/org.acme.wordcount.WordCount testing one two three
-
-java -p mods -m org.acme.wordcount/org.acme.wordcount.WordCount testing one two three
-

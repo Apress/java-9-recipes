@@ -1,1 +1,0 @@
-javac -d mods/org.firstmodule module-info.java org.firstmodule/org/firstmodule/Main.java

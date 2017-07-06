@@ -1,7 +1,0 @@
-Parses the string argument as a boolean. 
-The boolean returned represents the value true if the string argument is not null and is equal, ignoring case, to the string "true". 
-Otherwise, a false value is returned, including for a null argument.
-
-Example: Boolean.parseBoolean("True") returns true.
-Example: Boolean.parseBoolean("yes") returns false.
-

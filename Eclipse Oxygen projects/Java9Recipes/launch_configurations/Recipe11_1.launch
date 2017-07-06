@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/Java9Recipes/ch11/org/java9recipes/chapter11/recipe11_01/Recipe11_1.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.java9recipes.chapter11.recipe11_01.Recipe11_1"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Java9Recipes"/>
+<stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-verbose"/>
+</launchConfiguration>

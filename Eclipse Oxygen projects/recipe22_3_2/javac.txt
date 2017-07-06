@@ -1,0 +1,1 @@
+javac -d mods/org.secondModule org.secondModule/org/secondModule/Calculator.java org.secondModule/module-info.java

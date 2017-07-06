@@ -1,0 +1,6 @@
+июн. 29, 2017 10:22:44 ДП org.java9recipes.chapter09.recipe09_11.Recipe9_11 lambda$0
+SEVERE: Error in thread Thread[main,5,main] caused by 
+java.lang.ArithmeticException: / by zero
+	at org.java9recipes.chapter09.recipe09_11.Recipe9_11.start(Recipe9_11.java:27)
+	at org.java9recipes.chapter09.recipe09_11.Recipe9_11.main(Recipe9_11.java:17)
+
